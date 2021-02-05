@@ -6,8 +6,9 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_key, names|
       if !inner_key[names]
         final_array
+        binding.pry
       end
-      binding.pry
+
     end
     final_array
   end
